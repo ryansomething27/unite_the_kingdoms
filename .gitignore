@@ -31,8 +31,7 @@ migrate_working_dir/
 .pub/
 /build/
 
-# Firebase auto-generated config
-firebase_options.dart
+# Firebase auto-generated config (committing for CI convenience)
 
 # Symbolication related
 app.*.symbols
