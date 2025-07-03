@@ -1,0 +1,110 @@
+{
+  "saxon_fyrd": {
+    "id": "saxon_fyrd",
+    "name": "Fyrd",
+    "tier": 1,
+    "faction": "saxons",
+    "strength": 1,
+    "speed": 1.0,
+    "description": "Peasants with spears"
+  },
+  "saxon_militia": {
+    "id": "saxon_militia",
+    "name": "Militia",
+    "tier": 2,
+    "faction": "saxons",
+    "strength": 2,
+    "speed": 1.2,
+    "description": "Guards with short swords"
+  },
+  "saxon_royal_guard": {
+    "id": "saxon_royal_guard",
+    "name": "Royal Guard",
+    "tier": 3,
+    "faction": "saxons",
+    "strength": 3,
+    "speed": 1.5,
+    "description": "Elite swordsmen and axemen"
+  },
+  "saxon_fyrd_archers": {
+    "id": "saxon_fyrd_archers",
+    "name": "Fyrd Archers",
+    "tier": 1,
+    "faction": "saxons",
+    "strength": 1,
+    "speed": 0.8,
+    "description": "Peasant bowmen"
+  },
+  "saxon_trained_bowmen": {
+    "id": "saxon_trained_bowmen",
+    "name": "Trained Bowmen",
+    "tier": 2,
+    "faction": "saxons",
+    "strength": 2,
+    "speed": 1.0,
+    "description": "Professional archers"
+  },
+  "saxon_royal_longbowmen": {
+    "id": "saxon_royal_longbowmen",
+    "name": "Royal Longbowmen",
+    "tier": 3,
+    "faction": "saxons",
+    "strength": 3,
+    "speed": 1.2,
+    "description": "Elite longbow specialists"
+  },
+  "dane_raiders": {
+    "id": "dane_raiders",
+    "name": "Raiders",
+    "tier": 1,
+    "faction": "danes",
+    "strength": 1,
+    "speed": 1.1,
+    "description": "Aggressive looters"
+  },
+  "dane_outlaws": {
+    "id": "dane_outlaws",
+    "name": "Heathen Outlaws",
+    "tier": 2,
+    "faction": "danes",
+    "strength": 2,
+    "speed": 1.3,
+    "description": "Veteran mercenaries"
+  },
+  "dane_blood_warriors": {
+    "id": "dane_blood_warriors",
+    "name": "Blood Warriors",
+    "tier": 3,
+    "faction": "danes",
+    "strength": 3,
+    "speed": 1.4,
+    "description": "Fanatical berserkers"
+  },
+  "dane_raiders_bow": {
+    "id": "dane_raiders_bow",
+    "name": "Raiders with Bows",
+    "tier": 1,
+    "faction": "danes",
+    "strength": 1,
+    "speed": 1.0,
+    "description": "Quick-shooting raiders"
+  },
+  "dane_heathen_bowmen": {
+    "id": "dane_heathen_bowmen",
+    "name": "Heathen Bowmen",
+    "tier": 2,
+    "faction": "danes",
+    "strength": 2,
+    "speed": 1.2,
+    "description": "Seasoned archer mercenaries"
+  },
+  "dane_warlord_archers": {
+    "id": "dane_warlord_archers",
+    "name": "Warlord's Archers",
+    "tier": 3,
+    "faction": "danes",
+    "strength": 3,
+    "speed": 1.3,
+    "description": "Elite Danish longbowmen"
+  }
+}

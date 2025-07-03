@@ -1,0 +1,21 @@
+{
+  "towers": {
+    "spawn": {
+      "tier1": 5,
+      "tier2": 10,
+      "tier3": 15
+    },
+    "archer": {
+      "tier1": 8,
+      "tier2": 12,
+      "tier3": 18
+    }
+  },
+  "walls": {
+    "perUnit": 1
+  },
+  "monetization": {
+    "removeAds": 299,
+    "silverReward": 10
+  }
+}

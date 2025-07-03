@@ -1,0 +1,34 @@
+{
+  "project_info": {
+    "project_number": "977831010431",
+    "project_id": "unite-the-kingdoms",
+    "storage_bucket": "unite-the-kingdoms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977831010431:android:abcdef123456789",
+        "android_client_info": {
+          "package_name": "com.example.unite-kingdoms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977831010431-abcdefghijklmnopqrstuvwxyz123456.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbCdEfGhIjKlMnOpQrStUvWxYz123456789"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

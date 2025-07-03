@@ -1,0 +1,299 @@
+{
+  "sections": [
+    {
+      "id": "wessex_01",
+      "name": "Village of Cripplegate",
+      "kingdom": "wessex",
+      "isCastle": false,
+      "startingSilver": 30,
+      "description": "A small Saxon village under threat from Danish raiders. Your first test as a commander.",
+      "objectives": {
+        "primary": "Capture all enemy towers",
+        "secondary": "Complete within 10 minutes"
+      },
+      "towers": [
+        {
+          "id": "player_start",
+          "type": "spawn",
+          "tier": 1,
+          "faction": "saxons",
+          "cost": 0,
+          "lifeline": 15,
+          "maxTargets": 1,
+          "spawnRate": 2.0,
+          "position": {"x": 50, "y": 200},
+          "isPlayerControlled": true
+        },
+        {
+          "id": "enemy_01",
+          "type": "spawn",
+          "tier": 1,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 10,
+          "maxTargets": 1,
+          "spawnRate": 2.5,
+          "position": {"x": 300, "y": 150},
+          "isPlayerControlled": false
+        },
+        {
+          "id": "enemy_02",
+          "type": "archer",
+          "tier": 1,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 1,
+          "maxTargets": 0,
+          "spawnRate": 0,
+          "range": 80,
+          "damage": 1,
+          "accuracy": 0.6,
+          "fireRate": 2.0,
+          "position": {"x": 400, "y": 100},
+          "isPlayerControlled": false
+        }
+      ]
+    },
+    {
+      "id": "wessex_02",
+      "name": "Ford of Wantage",
+      "kingdom": "wessex",
+      "isCastle": false,
+      "startingSilver": 35,
+      "description": "Control this river crossing to secure supply lines through Wessex.",
+      "objectives": {
+        "primary": "Capture all enemy towers",
+        "secondary": "Prevent enemy reinforcements from crossing"
+      },
+      "towers": [
+        {
+          "id": "player_start",
+          "type": "spawn",
+          "tier": 1,
+          "faction": "saxons",
+          "cost": 0,
+          "lifeline": 15,
+          "maxTargets": 1,
+          "spawnRate": 2.0,
+          "position": {"x": 50, "y": 250},
+          "isPlayerControlled": true
+        },
+        {
+          "id": "enemy_01",
+          "type": "spawn",
+          "tier": 1,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 12,
+          "maxTargets": 1,
+          "spawnRate": 2.2,
+          "position": {"x": 350, "y": 200},
+          "isPlayerControlled": false
+        },
+        {
+          "id": "enemy_02",
+          "type": "spawn",
+          "tier": 2,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 18,
+          "maxTargets": 2,
+          "spawnRate": 1.8,
+          "position": {"x": 450, "y": 150},
+          "isPlayerControlled": false
+        }
+      ]
+    },
+    {
+      "id": "wessex_25",
+      "name": "Winchester Castle",
+      "kingdom": "wessex",
+      "isCastle": true,
+      "startingSilver": 60,
+      "description": "The ancient capital of Wessex. Capture this fortress to claim the kingdom!",
+      "objectives": {
+        "primary": "Destroy the castle's main keep",
+        "secondary": "Survive the final assault"
+      },
+      "towers": [
+        {
+          "id": "player_start",
+          "type": "spawn",
+          "tier": 2,
+          "faction": "saxons",
+          "cost": 0,
+          "lifeline": 25,
+          "maxTargets": 2,
+          "spawnRate": 1.5,
+          "position": {"x": 50, "y": 250},
+          "isPlayerControlled": true
+        },
+        {
+          "id": "castle_keep",
+          "type": "spawn",
+          "tier": 3,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 50,
+          "maxTargets": 3,
+          "spawnRate": 1.0,
+          "position": {"x": 450, "y": 200},
+          "isPlayerControlled": false
+        },
+        {
+          "id": "castle_tower_1",
+          "type": "archer",
+          "tier": 3,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 1,
+          "maxTargets": 0,
+          "spawnRate": 0,
+          "range": 180,
+          "damage": 4,
+          "accuracy": 0.9,
+          "fireRate": 0.8,
+          "position": {"x": 350, "y": 100},
+          "isPlayerControlled": false
+        },
+        {
+          "id": "castle_tower_2",
+          "type": "archer",
+          "tier": 3,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 1,
+          "maxTargets": 0,
+          "spawnRate": 0,
+          "range": 180,
+          "damage": 4,
+          "accuracy": 0.9,
+          "fireRate": 0.8,
+          "position": {"x": 350, "y": 300},
+          "isPlayerControlled": false
+        }
+      ]
+    },
+    {
+      "id": "mercia_26",
+      "name": "Tamworth Outpost",
+      "kingdom": "mercia",
+      "isCastle": false,
+      "startingSilver": 45,
+      "description": "The first stronghold of Mercia. Danish raiders have fortified this key position.",
+      "objectives": {
+        "primary": "Capture all enemy towers",
+        "secondary": "Minimize losses"
+      },
+      "towers": [
+        {
+          "id": "player_start",
+          "type": "spawn",
+          "tier": 2,
+          "faction": "saxons",
+          "cost": 0,
+          "lifeline": 20,
+          "maxTargets": 2,
+          "spawnRate": 1.8,
+          "position": {"x": 50, "y": 200},
+          "isPlayerControlled": true
+        },
+        {
+          "id": "enemy_01",
+          "type": "spawn",
+          "tier": 2,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 22,
+          "maxTargets": 2,
+          "spawnRate": 1.6,
+          "position": {"x": 400, "y": 150},
+          "isPlayerControlled": false
+        },
+        {
+          "id": "enemy_02",
+          "type": "archer",
+          "tier": 2,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 1,
+          "maxTargets": 0,
+          "spawnRate": 0,
+          "range": 120,
+          "damage": 2,
+          "accuracy": 0.75,
+          "fireRate": 1.4,
+          "position": {"x": 350, "y": 250},
+          "isPlayerControlled": false
+        }
+      ]
+    },
+    {
+      "id": "mercia_50",
+      "name": "Aylesbury Castle",
+      "kingdom": "mercia",
+      "isCastle": true,
+      "startingSilver": 75,
+      "description": "The heart of Mercia. This ancient fortress controls the trade routes of central England.",
+      "objectives": {
+        "primary": "Destroy the castle's defenses",
+        "secondary": "Control all approach routes"
+      },
+      "towers": [
+        {
+          "id": "player_start",
+          "type": "spawn",
+          "tier": 2,
+          "faction": "saxons",
+          "cost": 0,
+          "lifeline": 30,
+          "maxTargets": 2,
+          "spawnRate": 1.4,
+          "position": {"x": 50, "y": 250},
+          "isPlayerControlled": true
+        },
+        {
+          "id": "castle_keep",
+          "type": "spawn",
+          "tier": 3,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 60,
+          "maxTargets": 3,
+          "spawnRate": 0.9,
+          "position": {"x": 450, "y": 200},
+          "isPlayerControlled": false
+        },
+        {
+          "id": "castle_gate",
+          "type": "spawn",
+          "tier": 2,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 35,
+          "maxTargets": 2,
+          "spawnRate": 1.2,
+          "position": {"x": 350, "y": 200},
+          "isPlayerControlled": false
+        },
+        {
+          "id": "castle_tower_1",
+          "type": "archer",
+          "tier": 3,
+          "faction": "danes",
+          "cost": 0,
+          "lifeline": 1,
+          "maxTargets": 0,
+          "spawnRate": 0,
+          "range": 200,
+          "damage": 5,
+          "accuracy": 0.95,
+          "fireRate": 0.7,
+          "position": {"x": 400, "y": 100},
+          "isPlayerControlled": false
+        }
+      ]
+    }
+  ],
+  "note": "This is a sample configuration with 5 sections. The full game would contain all 100 sections across the four kingdoms: Wessex (1-25), Mercia (26-50), East Anglia (51-75), and Northumbria (76-100). Each kingdom's final section (25, 50, 75, 100) would be a castle siege."
+}
